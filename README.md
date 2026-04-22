@@ -27,15 +27,15 @@ Python libraries:
 
 Other than the Python libraries mentioned in the previous section, no installation should be needed. Simply download the Blackjack.py and run it in your favorite code editor.
 
-If any of the above libraries are missing, use 'pip install [library]' to install it.
+If any of the above libraries are missing, use `pip install [library]` to install it.
 
 ### Playing the game
 It is assumed that you're already familiar with the normal rules of Blackjack
 
 * Start the game by running the script. The game is played using a single deck of cards and the deck is reset between each round. Each round is played inderpendently from all other rounds.
 * When starting the game, you will be informed of the dealers hand and your own starting hand and points. You may need to increase the height of your console window if you see no information about the dealers hand.
-* When prompted, enter 'h' into the console to draw another card (hit) or 's' to stop drawing and pass the turn back to the dealer (stand). The dealer will then draw until they have at least 18 points and you will then be informed whether you win, lose, or if it's a draw.
-* When the game is over, you can enter 'y' into the console to play again, entering anything else exits the game.
+* When prompted, enter `h` into the console to draw another card (hit) or `s` to stop drawing and pass the turn back to the dealer (stand). The dealer will then draw until they have at least 18 points and you will then be informed whether you win, lose, or if it's a draw.
+* When the game is over, you can enter `y` into the console to play again, entering anything else exits the game.
 
 ## Help
 
