@@ -1,3 +1,7 @@
+# Import libraries
+import random
+import time
+
 ## Functions
 
 def reset_game(): #Resets hands and shuffles the deck
@@ -6,16 +10,16 @@ def reset_game(): #Resets hands and shuffles the deck
     deck[:] = list(range(1,52+1))
     random.shuffle(deck)
 
-def read_card_from_index(index): #Reads card and suit value from its index
-    # Check that the input is in integer
+def read_card_from_index(index): #Reads card and suit values from its index
+    # Check that the input is an integer
     if type(index) not in [int]:
-        raise TypeError("Input bust be an integer")
+        raise TypeError("Input must be an integer")
 
     # Initialize variables
     rank = ""
     suit = ""
 
-    # Determinte suit
+    # Determine suit
     if 1 <= index <= 13:
         suit = "Spades"
     elif 13+1 <= index <= 13*2:
@@ -77,10 +81,6 @@ def calculate_points(hand): #Calculate how many points in a hand
     return points
 
 ## Initialize program
-
-# Import libraries
-import random
-import time
 
 # Create deck and hands and shuffle the deck
 playerHand = []
