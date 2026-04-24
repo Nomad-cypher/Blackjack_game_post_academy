@@ -18,16 +18,31 @@ At the time of writing, there are no plans to update the codebase of the game it
 
 ### Dependencies
 
-Python libraries:
-* random
-* time
-* unittest (optional, only if you wish to also run the accompanying unit tests)
+Python
 
-### Installation
+### Running the game, in increasing order of complexity
 
-Other than the Python libraries mentioned in the previous section, no installation should be needed. Simply download the Blackjack.py and run it in your favorite code editor.
+#### Directly from the file
 
-If any of the above libraries are missing, use `pip install [library]` to install it.
+1. Download the file 'Blackjack.py'
+2. Run the file (you may need to use 'Open with' > 'Python' if you OS opens it with your code editor by default)
+
+#### In your code editor
+
+1. Download the file 'Blackjack.py'
+2. Open the file in your code editor
+3. Run the following command in your terminal: `python Blackjack.py`
+
+#### In Docker
+
+1. Download Blackjack.py, compose.yaml, and the Dockerfile
+2. Make sure the files are in the same folder
+3. Open a terminal and navigate to the folder containing the files
+4. Enter the following commands:
+```
+docker build -t blackjack_game .
+docker run -it blackjack_game
+```
 
 ### Playing the game
 It is assumed that you're already familiar with the normal rules of Blackjack
