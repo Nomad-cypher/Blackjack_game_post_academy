@@ -42,10 +42,11 @@ python Blackjack.py
 2. Make sure no other files are in the same folder
 3. Make sure that Docker is running
 4. Open a terminal and navigate to the folder containing the 2 downloaded files
-5. Enter the following commands:
+5. Enter the following command:
 ```bash
 docker build -t blackjack_game .
 ```
+6. After Docker is done building, run the following command to start the game:
 ```bash
 docker run -it blackjack_game
 ```
