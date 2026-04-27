@@ -27,10 +27,10 @@ Python
 1. Download the file 'Blackjack.py'
 2. Run the file (you may need to use 'Open with' > 'Python' if you OS opens it with your code editor by default)
 
-#### In your code editor
+#### In your terminal or code editor
 
 1. Download the file 'Blackjack.py'
-2. Open the file in your code editor
+2. Open your terminal or code editor and navigate to the folder containing the file
 3. Run the following command in your terminal:
 ```bash
 python Blackjack.py
@@ -40,8 +40,9 @@ python Blackjack.py
 
 1. Download the files 'Blackjack.py' and 'Dockerfile' and put them in a folder
 2. Make sure no other files are in the same folder
-3. Open a terminal and navigate to the folder containing the 2 downloaded files
-4. Enter the following commands:
+3. Make sure that Docker is running
+4. Open a terminal and navigate to the folder containing the 2 downloaded files
+5. Enter the following commands:
 ```bash
 docker build -t blackjack_game .
 ```
