@@ -31,16 +31,21 @@ Python
 
 1. Download the file 'Blackjack.py'
 2. Open the file in your code editor
-3. Run the following command in your terminal: `python Blackjack.py`
+3. Run the following command in your terminal:
+```bash
+python Blackjack.py
+```
 
 #### In Docker
 
-1. Download Blackjack.py, compose.yaml, and the Dockerfile
+1. Download the files 'Blackjack.py' and 'Dockerfile'
 2. Make sure the files are in the same folder
 3. Open a terminal and navigate to the folder containing the files
 4. Enter the following commands:
-```
+```bash
 docker build -t blackjack_game .
+```
+```bash
 docker run -it blackjack_game
 ```
 
@@ -55,7 +60,7 @@ It is assumed that you're already familiar with the normal rules of Blackjack
 ## Help
 
 * When playing, you should only use lowercase single letters when entering commands into the console
-* If you do not see any information about the dealers hand when starting the game, increase the height of your console window
+* If you do not see any information about the dealer's hand when starting the game, increase the height of your console window
 
 ## Author
 

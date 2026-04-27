@@ -80,7 +80,7 @@ def calculate_points(hand): #Calculate how many points in a hand
     #print(points) #debug
     return points
 
-## Initialize program
+## Run program
 
 # Create deck and hands and shuffle the deck
 playerHand = []
